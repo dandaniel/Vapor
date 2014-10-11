@@ -516,3 +516,14 @@ table tfoot {
     display: block;
   }
 }
+
+/* === Fork styles === */
+hr{
+  border: 1px solid whitesmoke;
+}
+
+#disqus_thread{
+  background: #F8F8F8;
+  padding: 10px;
+  margin-top: 20px;
+}
