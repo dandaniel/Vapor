@@ -2,21 +2,31 @@
 
 // Imports
 
-@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,300');
-@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+//@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,300');
+//@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+@font-face {
+    font-family: 'PNL';
+    src: url('../fonts/pnl-webfont.eot');
+    src: url('../fonts/pnl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pnl-webfont.woff') format('woff'),
+         url('../fonts/pnl-webfont.ttf') format('truetype'),
+         url('../fonts/pnl-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Variables
 
 @bodyBackgroundColor: #ffffff;
-@baseFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-@baseFontColor: #7f8c8d;
-@headerFontFamily: "Roboto Slab", @baseFontFamily;
-@headerFontColor: #151515;
+@baseFontFamily: "PNL", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@baseFontColor: #333;
+@headerFontFamily: "PNL", @baseFontFamily;
+@headerFontColor: #3c3c3c;
 @headerLinkColor: @headerFontColor;
-@secondaryFontFamily: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@secondaryFontFamily: "PNL", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 @preFontFamily: "Consolas", Courier, monospace;
-@tableFontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-@linkColor: #3498db;
+@tableFontFamily: "PNL", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+@linkColor: #00439A;
 @linkColorHover: darken(@linkColor, 50%);
 @borderColor: #ecf0f1;
 @subtleColor: rgba(0,0,0,0.05);
