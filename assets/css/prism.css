@@ -16,6 +16,7 @@ pre[class*="language-"] {
 	word-spacing: normal;
 	word-break: normal;
 	line-height: 1.5;
+  font-size:13px;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -131,9 +132,9 @@ pre[data-line] {
 	background: -webkit-linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
 	background: -o-linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
 	background: linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
-	
+
 	pointer-events: none;
-	
+
 	line-height: inherit;
 	white-space: pre;
 }
@@ -155,7 +156,7 @@ pre[data-line] {
 		text-shadow: none;
 		box-shadow: 0 1px white;
 	}
-	
+
 	.line-highlight[data-end]:after {
 		content: attr(data-end);
 		top: auto;
@@ -209,7 +210,7 @@ pre[class*='language-'] {
 }
 pre[class*='language-'] > code[data-language] {
 	overflow: scroll;
-	max-height: 28em;
+	/*max-height: 28em;*/
 	display: block;
 }
 pre[class*='language-'] > code[data-language]::before {
@@ -221,7 +222,7 @@ pre[class*='language-'] > code[data-language]::before {
 	top: 0;
 	right: 0;
 	font-size: 0.9em;
-	border-radius: 0 0 0 5px;
+	/*border-radius: 0 0 0 5px;*/
 	padding: 0 0.5em;
 	text-shadow: none;
 }
